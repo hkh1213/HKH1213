@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment</title>
+</head>
+<body>
+    <script type="text/javascript">
+    var count=prompt('주문할 책 수량을 입력하시오.');
+        
+         document.writeln('주문하신 책 목록'+"<br />");
+    for(var i=1;i<=count;i++){
+        var ch=prompt('주문할 책을 선택하시오 \n 1.달려라 메로스 \n 2.은하철도의 밤 \n 3.거미줄');
+        document.writeln('['+i+']');
+   if(ch==1){
+       document.writeln('달려라 메로스'+"<br />");
+   }
+       
+       else if(ch==2){
+           document.writeln('은하철도의 밤'+"<br />");
+       }
+           
+         else if(ch==3){
+               document.writeln('거미줄'+"<br />");
+           }
+        else{
+           alert('잘못 입력하셨습니다.');
+        }
+    }
+        
+    
+    
+    </script>
+</body>
+</html>
